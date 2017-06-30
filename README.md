@@ -12,8 +12,8 @@ Open your browser :
 
 2. Find All
 
-    ```http://localhost:8080/findAll
-
+    ```
+    http://localhost:8080/findAll
 
  [
     {
