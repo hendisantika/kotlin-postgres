@@ -26,14 +26,14 @@ class WebController {
         return "Done"
     }
 
-    @RequestMapping("/findall")
+    @RequestMapping("/findAll")
     fun findAll() = repository.findAll()
 
-    @RequestMapping("/findbyid/{id}")
+    @RequestMapping("/findById/{id}")
     fun findById(@PathVariable id: Long)
             = repository.findOne(id)
 
-    @RequestMapping("findbylastname/{lastName}")
+    @RequestMapping("findByLastname/{lastName}")
     fun findByLastName(@PathVariable lastName: String)
             = repository.findByLastName(lastName)
 }
