@@ -17,11 +17,11 @@ class WebController {
 
     @RequestMapping("/save")
     fun save(): String {
-        repository.save(Customer("Jack", "Smith"))
-        repository.save(Customer("Adam", "Johnson"))
-        repository.save(Customer("Kim", "Smith"))
-        repository.save(Customer("David", "Williams"))
-        repository.save(Customer("Peter", "Davis"))
+        repository.save(Customer("Hendi", "Santika"))
+        repository.save(Customer("Uzumaki", "Naruto"))
+        repository.save(Customer("Uchiha", "Sasuke"))
+        repository.save(Customer("Haruno", "Sakura"))
+        repository.save(Customer("Hatake", "Kakashi"))
 
         return "Done"
     }
