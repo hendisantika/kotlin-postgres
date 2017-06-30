@@ -15,33 +15,33 @@ Open your browser :
     ```
     http://localhost:8080/findAll
 
- [
-    {
-        "firstName": "Hendi",
-        "lastName": "Santika",
-        "id": 1
-      },
-      {
-        "firstName": "Uzumaki",
-        "lastName": "Naruto",
-        "id": 2
-      },
-      {
-        "firstName": "Uchiha",
-        "lastName": "Sasuke",
-        "id": 3
-      },
-      {
-        "firstName": "Haruno",
-        "lastName": "Sakura",
-        "id": 4
-      },
-      {
-        "firstName": "Hatake",
-        "lastName": "Kakashi",
-        "id": 5
-      }
- ]
+     [
+        {
+            "firstName": "Hendi",
+            "lastName": "Santika",
+            "id": 1
+          },
+          {
+            "firstName": "Uzumaki",
+            "lastName": "Naruto",
+            "id": 2
+          },
+          {
+            "firstName": "Uchiha",
+            "lastName": "Sasuke",
+            "id": 3
+          },
+          {
+            "firstName": "Haruno",
+            "lastName": "Sakura",
+            "id": 4
+          },
+          {
+            "firstName": "Hatake",
+            "lastName": "Kakashi",
+            "id": 5
+          }
+     ]
 
      ```
 
