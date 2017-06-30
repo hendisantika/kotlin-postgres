@@ -12,7 +12,7 @@ Open your browser :
 
 2. Find All
 
-    `http://localhost:8080/findAll
+    ```http://localhost:8080/findAll
 
 
  [
@@ -42,11 +42,12 @@ Open your browser :
         "id": 5
       }
  ]
-`
+```
 
 3. Find By Id
 
     `http://localhost:8080/findById/1`
 
 4. Find By Lastname
+
     `http://localhost:8080/findByLastname/Kakashi`
