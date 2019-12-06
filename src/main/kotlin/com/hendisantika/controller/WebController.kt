@@ -30,8 +30,7 @@ class WebController {
     fun findAll() = repository.findAll()
 
     @RequestMapping("/findById/{id}")
-    fun findById(@PathVariable id: Long)
-            = repository.findOne(id)
+    fun findById(@PathVariable id: Long) = repository.findById(id)
 
     @RequestMapping("findByLastname/{lastName}")
     fun findByLastName(@PathVariable lastName: String)
